@@ -72,17 +72,18 @@ body{
     border-radius: 10px;
 }
 .card-plan h4{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
 
 .card-plan p{
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 300;
     text-align: left;
     color: hsl(224, 23%, 55%) ;
 }
+
 
 .card-plan img{
     width: 32%;
@@ -105,6 +106,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items:center;
 }
 
 .card button{
