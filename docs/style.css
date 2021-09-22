@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(../images/pattern-background-desktop.svg) ;
+    background-repeat:no-repeat ;
+    background-size:contain;
+    background-color:hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    vertical-align: center;
+}
+
+.card-container{
+    grid-column: 2;
+}
+
+.card{
+    background-color: white;
+    height: max-content;
+    width: 45vh;
+    height: 70vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.329);
+    margin: 0 auto;
+}
+
+.card-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: max-content;
+    padding:20px 0px;
+}
+
+.card p{
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%) ;
+    line-height: 25px;
+}
+.card h3{
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.card-image{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-desc{
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 23px 0px;
+    border-radius: 10px;
+}
+.card-desc h4{
+    font-size: 12px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.card-desc p{
+    font-size: 9px;
+    font-weight: 300;
+    text-align: left;
+    color: hsl(224, 23%, 55%) ;
+}
+
+.card-plan img{
+    width: 32%;
+    height: auto;
+    align-self: flex-end;
+}
+
+.card-link{
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+    text-decoration:underline ;
+    font-size: 2px;
+}
+.card-link:hover{
+    color: hsl(224, 23%, 55%) ;
+}
+
+.card-plan{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card button{
+    width:100%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight:900 ;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border-radius:5px ;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.329);
+}
+
+.card button:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.card-cancel{
+    font-size: 10px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card-cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
